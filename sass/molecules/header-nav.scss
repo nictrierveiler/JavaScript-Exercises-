@@ -1,0 +1,35 @@
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;   
+    margin-left: -30px;
+    height: 30px;
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+    @media (max-width: $desktop) {
+        display: none;
+    }
+
+    &__item1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+           
+    }
+
+    &__item1:hover {
+        background-color: $darkblue;
+        color: white;
+        transition: all .5s;
+        height: 100%;
+        
+        
+
+    }
+    
+}
+
+
+

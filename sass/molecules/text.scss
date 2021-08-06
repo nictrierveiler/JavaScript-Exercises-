@@ -1,0 +1,55 @@
+.display_text {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+&__content {
+    position: relative;
+   border-left: solid cyan 4px;
+   font-size: 65px;
+   padding-left: 30px;
+   font-family: $font-family-montserrat;
+   color: white;
+   font-weight: 400;
+
+
+   &--italic {
+       font-weight: 100;
+       font-style: italic;
+    }
+
+
+}
+}
+    
+.display-subtext{
+    height: auto;
+    max-width: 890px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: -50px;
+    
+
+    &__paragraph {
+        width: auto;
+        color: white;
+        font-size: 30px;
+        margin-top: -10px;
+        font-weight: 0;
+
+        &--quote {
+            font-weight: 400;
+            color: yellow;
+            font-size: 60px;
+        }
+         
+}    
+    
+}
+
